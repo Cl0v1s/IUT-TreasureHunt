@@ -1,0 +1,1231 @@
+# depslib dependency file v1.0
+1415978819 source:/mnt/info-nfs/users/cportron/programmation/Treasure_Hunt/Lib.cc
+	"Lib.h"
+
+1415978849 /mnt/info-nfs/users/cportron/programmation/Treasure_Hunt/Lib.h
+	<stdlib.h>
+	<string>
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<sstream>
+	<iostream>
+	<math.h>
+
+1416900001 
+
+1335902784 /usr/include/SDL/SDL_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1340285254 e.h"
+
+1340285254 /usr/include/SDL/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1340285254 /usr/include/SDL/SDL_platform.h
+
+1340285254 /usr/include/SDL/begin_code.h
+
+1340285254 /usr/include/SDL/close_code.h
+
+1340285254 /usr/include/SDL/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_keysym.h
+
+1340285254 /usr/include/SDL/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1415983414 .h"
+
+1340285254 /usr/include/SDL/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1340285254 /usr/include/SDL/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1415981942 source:/mnt/info-nfs/users/cportron/programmation/Treasure_Hunt/main.cpp
+	"main.h"
+
+1415984340 /mnt/info-nfs/users/cportron/programmation/Treasure_Hunt/main.h
+	<SDL/SDL.h>
+	"Lib.h"
+	"Scene.h"
+	<cstdlib>
+
+1415983412 source:/mnt/info-nfs/users/cportron/programmation/Treasure_Hunt/Structure.cc
+	"Structure.h"
+
+1415984357 /mnt/info-nfs/users/cportron/programmation/Treasure_Hunt/Structure.h
+	<cstdlib>
+	"Lib.h"
+	"main.h"
+
+1415981499 source:/mnt/info-nfs/users/cportron/programmation/Treasure_Hunt/Scene.cc
+	"Scene.h"
+
+1415983814 /mnt/info-nfs/users/cportron/programmation/Treasure_Hunt/Scene.h
+	<cstdlib>
+	"Lib.h"
+	"Structure.h"
+
+1416741883 source:/home/clovis/Dropbox/Treasure_Hunt/Lib.cc
+	"Lib.h"
+
+1416741868 /home/clovis/Dropbox/Treasure_Hunt/Lib.h
+	<stdlib.h>
+	<string>
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<sstream>
+	<iostream>
+	<math.h>
+
+1415983414 source:/home/clovis/Dropbox/Treasure_Hunt/Structure.cc
+	"Structure.h"
+
+1416741864 /home/clovis/Dropbox/Treasure_Hunt/Structure.h
+	<cstdlib>
+	"Lib.h"
+	"main.h"
+
+1416741325 /home/clovis/Dropbox/Treasure_Hunt/main.h
+
+1416742048 source:/home/clovis/Dropbox/Treasure_Hunt/main.cpp
+	<SDL/SDL.h>
+	"Lib.h"
+	"Scene.h"
+	<cstdlib>
+
+1416743636 /home/clovis/Dropbox/Treasure_Hunt/Scene.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	"Lib.h"
+	"Structure.h"
+	"Constantes.h"
+
+1416743636 s.h"
+
+1416741582 /home/clovis/Dropbox/Treasure_Hunt/Constantes.h
+
+1416743609 source:/home/clovis/Dropbox/Treasure_Hunt/Scene.cc
+	"Scene.h"
+
+1416911389 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/Lib.cc
+	"Lib.h"
+
+1416912492 /mnt/info-nfs/users/cportron/Treasure_Hunt/Lib.h
+	<stdlib.h>
+	<string>
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<sstream>
+	<iostream>
+	<math.h>
+
+1416911212 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/main.cpp
+	<SDL/SDL.h>
+	"Lib.h"
+	"Scene.h"
+	<cstdlib>
+
+1416900001 /mnt/info-nfs/users/cportron/Treasure_Hunt/Scene.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	"Lib.h"
+	"Case.h"
+	"Constantes.h"
+	"Button.h"
+
+1416899383 /mnt/info-nfs/users/cportron/Treasure_Hunt/Structure.h
+	<cstdlib>
+
+1416899413 /mnt/info-nfs/users/cportron/Treasure_Hunt/Constantes.h
+
+1416912882 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/Case.cc
+	"Case.h"
+
+1416913040 /mnt/info-nfs/users/cportron/Treasure_Hunt/Case.h
+	"Constantes.h"
+	"Entity.h"
+	<cstdlib>
+
+1416899314 /mnt/info-nfs/users/cportron/Treasure_Hunt/Entity.h
+	"Lib.h"
+
+1416899476 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/Entity.cc
+	"Entity.h"
+
+1416909261 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/Button.cc
+	"Button.h"
+
+1416909059 /mnt/info-nfs/users/cportron/Treasure_Hunt/Button.h
+	<SDL/SDL.h>
+	"Lib.h"
+	<cstdlib>
+
+1416912857 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/Scene.cc
+	"Scene.h"
+
+1416909261 source:v:\treasure_hunt\button.cc
+	"Button.h"
+
+1416909059 v:\treasure_hunt\button.h
+	<SDL/SDL.h>
+	"Lib.h"
+	<cstdlib>
+
+1416912492 v:\treasure_hunt\lib.h
+	<stdlib.h>
+	<string>
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<sstream>
+	<iostream>
+	<math.h>
+
+1416899476 source:v:\treasure_hunt\entity.cc
+	"Entity.h"
+
+1416899314 v:\treasure_hunt\entity.h
+	"Lib.h"
+
+1416911389 source:v:\treasure_hunt\lib.cc
+	"Lib.h"
+
+1416911212 source:v:\treasure_hunt\main.cpp
+	<SDL/SDL.h>
+	"Lib.h"
+	"Scene.h"
+	<cstdlib>
+
+1416900001 v:\treasure_hunt\scene.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	"Lib.h"
+	"Case.h"
+	"Constantes.h"
+	"Button.h"
+
+1416913040 v:\treasure_hunt\case.h
+	"Constantes.h"
+	"Entity.h"
+	<cstdlib>
+
+1416913813 v:\treasure_hunt\constantes.h
+
+1416912857 source:v:\treasure_hunt\scene.cc
+	"Scene.h"
+
+1418332382 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/Button.cc
+	"Button.h"
+
+1418332382 /mnt/info-nfs/users/cportron/Treasure_Hunt/Button.h
+	<SDL/SDL.h>
+	"Lib.h"
+	<cstdlib>
+	<string>
+
+1418332382 /mnt/info-nfs/users/cportron/Treasure_Hunt/Lib.h
+	<stdlib.h>
+	<string>
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<sstream>
+	<iostream>
+	<math.h>
+	"Constantes.h"
+
+1390221529 /usr/include/SDL/SDL_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1399696840 /usr/include/SDL/SDL_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1399696839 /usr/include/SDL/SDL_platform.h
+
+1399696840 /usr/include/SDL/begin_code.h
+
+1399696840 /usr/include/SDL/close_code.h
+
+1399696839 /usr/include/SDL/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_keysym.h
+
+1399696839 /usr/include/SDL/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696840 /usr/include/SDL/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1399696839 /usr/include/SDL/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696840 /usr/include/SDL/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696840 /usr/include/SDL/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1417019070 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/Entity.cc
+	"Entity.h"
+
+1416899314 /mnt/info-nfs/users/cportron/Treasure_Hunt/Entity.h
+	"Lib.h"
+
+1418332382 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/Lib.cc
+	"Lib.h"
+
+1418332382 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/main.cpp
+	<SDL/SDL.h>
+	"Constantes.h"
+	"Lib.h"
+	"Scene.h"
+	"Scene_Game.h"
+	"Scene_Menu.h"
+	"Scene_Win.h"
+	<cstdlib>
+
+1417245526 /mnt/info-nfs/users/cportron/Treasure_Hunt/Scene.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	"Lib.h"
+	"Map.h"
+	"Constantes.h"
+	"Button.h"
+	"Player.h"
+
+1417019193 /mnt/info-nfs/users/cportron/Treasure_Hunt/Case.h
+	"Constantes.h"
+	"Entity.h"
+	<cstdlib>
+
+1418332382 /mnt/info-nfs/users/cportron/Treasure_Hunt/Constantes.h
+	<string>
+
+1417245458 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/Scene.cc
+	"Scene.h"
+
+1417019339 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/Case.cc
+	"Case.h"
+
+1418229746 source:/home/clovis/Bureau/Treasure_Hunt/Button.cc
+	"Button.h"
+
+1418229736 /home/clovis/Bureau/Treasure_Hunt/Button.h
+	<SDL/SDL.h>
+	"Lib.h"
+	<cstdlib>
+	<string>
+
+1418231008 /home/clovis/Bureau/Treasure_Hunt/Lib.h
+	<stdlib.h>
+	<string>
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<sstream>
+	<iostream>
+	<math.h>
+	"Constantes.h"
+
+1417111483 source:/home/clovis/Bureau/Treasure_Hunt/Case.cc
+	"Case.h"
+
+1417111491 /home/clovis/Bureau/Treasure_Hunt/Case.h
+	"Constantes.h"
+	"Entity.h"
+	<cstdlib>
+
+1418331042 /home/clovis/Bureau/Treasure_Hunt/Constantes.h
+	<string>
+
+1417102720 /home/clovis/Bureau/Treasure_Hunt/Entity.h
+	"Lib.h"
+
+1417107311 source:/home/clovis/Bureau/Treasure_Hunt/Entity.cc
+	"Entity.h"
+
+1418322824 source:/home/clovis/Bureau/Treasure_Hunt/Lib.cc
+	"Lib.h"
+
+1418322068 source:/home/clovis/Bureau/Treasure_Hunt/main.cpp
+	<SDL/SDL.h>
+	"Constantes.h"
+	"Lib.h"
+	"Scene.h"
+	"Scene_Game.h"
+	"Scene_Menu.h"
+	"Scene_Win.h"
+	<cstdlib>
+
+1417245526 /home/clovis/Bureau/Treasure_Hunt/Scene.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	"Lib.h"
+	"Map.h"
+	"Constantes.h"
+	"Button.h"
+	"Player.h"
+
+1417245458 source:/home/clovis/Bureau/Treasure_Hunt/Scene.cc
+	"Scene.h"
+
+1418069103 source:/home/clovis/Bureau/Treasure_Hunt/Map.cc
+	"Map.h"
+
+1417956765 /home/clovis/Bureau/Treasure_Hunt/Map.h
+	<SDL/SDL.h>
+	<iostream>
+	<cstdlib>
+	"Constantes.h"
+	"Lib.h"
+
+1417102718 source:/home/clovis/Dropbox/Treasure_Hunt/Button.cc
+	"Button.h"
+
+1417118130 /home/clovis/Dropbox/Treasure_Hunt/Button.h
+	<SDL/SDL.h>
+	"Lib.h"
+	<cstdlib>
+
+1417274520 /home/clovis/Dropbox/Treasure_Hunt/Lib.h
+	<stdlib.h>
+	<string>
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<sstream>
+	<iostream>
+	<math.h>
+	"Constantes.h"
+
+1417274515 source:/home/clovis/Dropbox/Treasure_Hunt/Lib.cc
+	"Lib.h"
+
+1417278239 source:/home/clovis/Dropbox/Treasure_Hunt/main.cpp
+	<SDL/SDL.h>
+	"Lib.h"
+	"Scene.h"
+	"Scene_Game.h"
+	"Scene_Menu.h"
+	<cstdlib>
+
+1417277927 /home/clovis/Dropbox/Treasure_Hunt/Scene.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	"Lib.h"
+	"Map.h"
+	"Constantes.h"
+	"Button.h"
+	"Player.h"
+
+1417117086 /home/clovis/Dropbox/Treasure_Hunt/Map.h
+	<SDL/SDL.h>
+	<iostream>
+	<cstdlib>
+	"Constantes.h"
+	"Lib.h"
+
+1417273548 /home/clovis/Dropbox/Treasure_Hunt/Constantes.h
+
+1417276344 source:/home/clovis/Dropbox/Treasure_Hunt/Map.cc
+	"Map.h"
+
+1417277767 source:/home/clovis/Dropbox/Treasure_Hunt/Player.cc
+	"Player.h"
+
+1417276536 /home/clovis/Dropbox/Treasure_Hunt/Player.h
+	<SDL/SDL.h>
+	<cmath>
+	"Lib.h"
+	"Map.h"
+
+1417277859 source:/home/clovis/Dropbox/Treasure_Hunt/Scene.cc
+	"Scene.h"
+
+1417276686 /home/clovis/Dropbox/Treasure_Hunt/Scene_Game.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	"Lib.h"
+	"Map.h"
+	"Constantes.h"
+	"Button.h"
+	"Player.h"
+
+1417276753 source:/home/clovis/Dropbox/Treasure_Hunt/Scene_Game.cc
+	"Scene_Game.h"
+
+1417278317 /home/clovis/Dropbox/Treasure_Hunt/Scene_Menu.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	"Lib.h"
+	"Map.h"
+	"Constantes.h"
+	"Button.h"
+	"Player.h"
+
+1417278327 source:/home/clovis/Dropbox/Treasure_Hunt/Scene_Menu.cc
+	"Scene_Menu.h"
+
+1418232369 /home/clovis/Bureau/Treasure_Hunt/Player.h
+	<SDL/SDL.h>
+	<cmath>
+	<climits>
+	"Lib.h"
+	"Map.h"
+
+1418230228 /home/clovis/Bureau/Treasure_Hunt/Scene_Game.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	"Lib.h"
+	"Map.h"
+	"Constantes.h"
+	"Button.h"
+	"Player.h"
+	"Jauge.h"
+	"Interface.h"
+	"Scene_Win.h"
+
+1418074692 /home/clovis/Bureau/Treasure_Hunt/Scene_Menu.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	"Lib.h"
+	"Map.h"
+	"Constantes.h"
+	"Button.h"
+	"Player.h"
+
+1418328000 source:/home/clovis/Bureau/Treasure_Hunt/Scene_Menu.cc
+	"Scene_Menu.h"
+
+1418232379 source:/home/clovis/Bureau/Treasure_Hunt/Player.cc
+	"Player.h"
+
+1418325772 source:/home/clovis/Bureau/Treasure_Hunt/Scene_Game.cc
+	"Scene_Game.h"
+
+1417956764 /mnt/info-nfs/users/cportron/Treasure_Hunt/Map.h
+	<SDL/SDL.h>
+	<iostream>
+	<cstdlib>
+	"Constantes.h"
+	"Lib.h"
+
+1418400832 /mnt/info-nfs/users/cportron/Treasure_Hunt/Player.h
+	<SDL/SDL.h>
+	<cmath>
+	<climits>
+	"Lib.h"
+	"Map.h"
+
+1418332382 /mnt/info-nfs/users/cportron/Treasure_Hunt/Scene_Game.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	"Lib.h"
+	"Map.h"
+	"Constantes.h"
+	"Button.h"
+	"Player.h"
+	"Jauge.h"
+	"Interface.h"
+	"Scene_Win.h"
+
+1418332382 /mnt/info-nfs/users/cportron/Treasure_Hunt/Scene_Menu.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	"Lib.h"
+	"Map.h"
+	"Constantes.h"
+	"Button.h"
+	"Player.h"
+
+1418403171 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/Scene_Menu.cc
+	"Scene_Menu.h"
+
+1418069102 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/Map.cc
+	"Map.h"
+
+1418403076 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/Player.cc
+	"Player.h"
+
+1418403052 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/Scene_Game.cc
+	"Scene_Game.h"
+
+1418332382 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/Jauge.cc
+	"Jauge.h"
+
+1417888174 /mnt/info-nfs/users/cportron/Treasure_Hunt/Jauge.h
+	<SDL/SDL.h>
+	<iostream>
+	"Player.h"
+	"Lib.h"
+
+1417955639 source:/home/clovis/Bureau/Treasure_Hunt/Jauge.cc
+	"Jauge.h"
+
+1417888175 /home/clovis/Bureau/Treasure_Hunt/Jauge.h
+	<SDL/SDL.h>
+	<iostream>
+	"Player.h"
+	"Lib.h"
+
+1418325676 /home/clovis/Bureau/Treasure_Hunt/Interface.h
+	<SDL/SDL.h>
+	<string>
+	"Jauge.h"
+	"Lib.h"
+
+1418326178 source:/home/clovis/Bureau/Treasure_Hunt/Interface.cc
+	"Interface.h"
+
+1418331999 source:/home/clovis/Bureau/Treasure_Hunt/Scene_Win.cc
+	"Scene_Win.h"
+
+1418330564 /home/clovis/Bureau/Treasure_Hunt/Scene_Win.h
+	<iostream>
+	<fstream>
+	<string>
+	<climits>
+	"Constantes.h"
+	"Lib.h"
+	"Button.h"
+	"Player.h"
+
+1418400935 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/Interface.cc
+	"Interface.h"
+
+1418332382 /mnt/info-nfs/users/cportron/Treasure_Hunt/Interface.h
+	<SDL/SDL.h>
+	<string>
+	"Jauge.h"
+	"Lib.h"
+
+1418332382 /mnt/info-nfs/users/cportron/Treasure_Hunt/Scene_Win.h
+	<iostream>
+	<fstream>
+	<string>
+	<climits>
+	"Constantes.h"
+	"Lib.h"
+	"Button.h"
+	"Player.h"
+
+1418403263 source:/mnt/info-nfs/users/cportron/Treasure_Hunt/Scene_Win.cc
+	"Scene_Win.h"
+
+1418332382 source:/media/GC/Treasure_Hunt/Button.cc
+	"Button.h"
+
+1418332382 /media/GC/Treasure_Hunt/Button.h
+	<SDL/SDL.h>
+	"Lib.h"
+	<cstdlib>
+	<string>
+
+1418332382 /media/GC/Treasure_Hunt/Lib.h
+	<stdlib.h>
+	<string>
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<sstream>
+	<iostream>
+	<math.h>
+	"Constantes.h"
+
+1418332382 /media/GC/Treasure_Hunt/Constantes.h
+	<string>
+
+1418400934 source:/media/GC/Treasure_Hunt/Interface.cc
+	"Interface.h"
+
+1418332382 /media/GC/Treasure_Hunt/Interface.h
+	<SDL/SDL.h>
+	<string>
+	"Jauge.h"
+	"Lib.h"
+
+1417888174 /media/GC/Treasure_Hunt/Jauge.h
+	<SDL/SDL.h>
+	<iostream>
+	"Player.h"
+	"Lib.h"
+
+1418400832 /media/GC/Treasure_Hunt/Player.h
+	<SDL/SDL.h>
+	<cmath>
+	<climits>
+	"Lib.h"
+	"Map.h"
+
+1417956764 /media/GC/Treasure_Hunt/Map.h
+	<SDL/SDL.h>
+	<iostream>
+	<cstdlib>
+	"Constantes.h"
+	"Lib.h"
+
+1418332382 source:/media/GC/Treasure_Hunt/Jauge.cc
+	"Jauge.h"
+
+1418332382 source:/media/GC/Treasure_Hunt/Lib.cc
+	"Lib.h"
+
+1418332382 source:/media/GC/Treasure_Hunt/main.cpp
+	<SDL/SDL.h>
+	"Constantes.h"
+	"Lib.h"
+	"Scene.h"
+	"Scene_Game.h"
+	"Scene_Menu.h"
+	"Scene_Win.h"
+	<cstdlib>
+
+1417245526 /media/GC/Treasure_Hunt/Scene.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	"Lib.h"
+	"Map.h"
+	"Constantes.h"
+	"Button.h"
+	"Player.h"
+
+1418332382 /media/GC/Treasure_Hunt/Scene_Game.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	"Lib.h"
+	"Map.h"
+	"Constantes.h"
+	"Button.h"
+	"Player.h"
+	"Jauge.h"
+	"Interface.h"
+	"Scene_Win.h"
+
+1418332382 /media/GC/Treasure_Hunt/Scene_Win.h
+	<iostream>
+	<fstream>
+	<string>
+	<climits>
+	"Constantes.h"
+	"Lib.h"
+	"Button.h"
+	"Player.h"
+
+1418332382 /media/GC/Treasure_Hunt/Scene_Menu.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	"Lib.h"
+	"Map.h"
+	"Constantes.h"
+	"Button.h"
+	"Player.h"
+
+1418069102 source:/media/GC/Treasure_Hunt/Map.cc
+	"Map.h"
+
+1418403076 source:/media/GC/Treasure_Hunt/Player.cc
+	"Player.h"
+
+1418403336 source:/media/GC/Treasure_Hunt/Scene_Game.cc
+	"Scene_Game.h"
+
+1418403170 source:/media/GC/Treasure_Hunt/Scene_Menu.cc
+	"Scene_Menu.h"
+
+1418403262 source:/media/GC/Treasure_Hunt/Scene_Win.cc
+	"Scene_Win.h"
+
+1418567220 source:/home/clovis/Treasure_Hunt/Button.cc
+	"Button.h"
+
+1418567777 /home/clovis/Treasure_Hunt/Button.h
+	<SDL/SDL.h>
+	"Lib.h"
+	<cstdlib>
+	<string>
+
+1418569129 /home/clovis/Treasure_Hunt/Lib.h
+	<stdlib.h>
+	<string>
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<sstream>
+	<iostream>
+	<math.h>
+	"Constantes.h"
+
+1418561250 /home/clovis/Treasure_Hunt/Constantes.h
+	<string>
+
+1418567645 source:/home/clovis/Treasure_Hunt/Interface.cc
+	"Interface.h"
+
+1418567903 /home/clovis/Treasure_Hunt/Interface.h
+	<SDL/SDL.h>
+	<string>
+	"Jauge.h"
+	"Lib.h"
+
+1418568362 /home/clovis/Treasure_Hunt/Jauge.h
+	<SDL/SDL.h>
+	<iostream>
+	"Player.h"
+	"Lib.h"
+
+1418570378 /home/clovis/Treasure_Hunt/Player.h
+	<SDL/SDL.h>
+	<cmath>
+	<climits>
+	"Lib.h"
+	"Map.h"
+
+1418569556 /home/clovis/Treasure_Hunt/Map.h
+	<SDL/SDL.h>
+	<iostream>
+	<cstdlib>
+	"Constantes.h"
+	"Lib.h"
+
+1418568250 source:/home/clovis/Treasure_Hunt/Jauge.cc
+	"Jauge.h"
+
+1418572550 source:/home/clovis/Treasure_Hunt/Lib.cc
+	"Lib.h"
+
+1418569659 source:/home/clovis/Treasure_Hunt/Map.cc
+	"Map.h"
+
+1418570234 source:/home/clovis/Treasure_Hunt/Player.cc
+	"Player.h"
+
+1418571192 source:/home/clovis/Treasure_Hunt/Scene_Game.cc
+	"Scene_Game.h"
+
+1418332382 /home/clovis/Treasure_Hunt/Scene_Game.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	"Lib.h"
+	"Map.h"
+	"Constantes.h"
+	"Button.h"
+	"Player.h"
+	"Jauge.h"
+	"Interface.h"
+	"Scene_Win.h"
+
+1418563507 /home/clovis/Treasure_Hunt/Scene_Win.h
+	<iostream>
+	<fstream>
+	<string>
+	<climits>
+	"Constantes.h"
+	"Lib.h"
+	"Button.h"
+	"Player.h"
+
+1418572261 source:/home/clovis/Treasure_Hunt/Scene_Win.cc
+	"Scene_Win.h"
+
+1418566981 source:/home/clovis/Treasure_Hunt/main.cpp
+	<SDL/SDL.h>
+	"Constantes.h"
+	"Lib.h"
+	"Scene.h"
+	"Scene_Game.h"
+	"Scene_Menu.h"
+	"Scene_Win.h"
+	"Scene_Scores.h"
+	<cstdlib>
+
+1417245526 /home/clovis/Treasure_Hunt/Scene.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	"Lib.h"
+	"Map.h"
+	"Constantes.h"
+	"Button.h"
+	"Player.h"
+
+1418559046 /home/clovis/Treasure_Hunt/Scene_Menu.h
+	<SDL/SDL.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	"Lib.h"
+	"Map.h"
+	"Constantes.h"
+	"Button.h"
+	"Player.h"
+
+1418561885 /home/clovis/Treasure_Hunt/Scene_Scores.h
+	<SDL/SDL.h>
+	<string>
+	<fstream>
+	<iostream>
+	"Lib.h"
+	"Button.h"
+
+1418571175 source:/home/clovis/Treasure_Hunt/Scene_Menu.cc
+	"Scene_Menu.h"
+
+1418571578 source:/home/clovis/Treasure_Hunt/Scene_Scores.cc
+	"Scene_Scores.h"
+

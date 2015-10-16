@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Treasure_Hunt" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Treasure_Hunt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-lSDLmain  -lSDL -lSDL_image -lSDL_ttf" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Treasure_Hunt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lSDLmain  -lSDL -lSDL_image -lSDL_ttf" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`sdl-config --cflags`" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="`sdl-config --libs`" />
+		</Linker>
+		<Unit filename="Button.cc" />
+		<Unit filename="Button.h" />
+		<Unit filename="Constantes.h" />
+		<Unit filename="Interface.cc" />
+		<Unit filename="Interface.h" />
+		<Unit filename="Jauge.cc" />
+		<Unit filename="Jauge.h" />
+		<Unit filename="Lib.cc" />
+		<Unit filename="Lib.h" />
+		<Unit filename="Map.cc" />
+		<Unit filename="Map.h" />
+		<Unit filename="Player.cc" />
+		<Unit filename="Player.h" />
+		<Unit filename="Scene_Game.cc" />
+		<Unit filename="Scene_Game.h" />
+		<Unit filename="Scene_Menu.cc" />
+		<Unit filename="Scene_Menu.h" />
+		<Unit filename="Scene_Scores.cc" />
+		<Unit filename="Scene_Scores.h" />
+		<Unit filename="Scene_Win.cc" />
+		<Unit filename="Scene_Win.h" />
+		<Unit filename="cb.bmp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
